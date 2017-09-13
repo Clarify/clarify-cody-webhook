@@ -5,7 +5,7 @@ const Path = require('path');
 const ClarifyCody = require('clarify-cody');
 
 
-FS.readFile(Path.resolve(__dirname, 'sample_insight_transcript.js'), 'utf8', function(err, data) {
+FS.readFile(Path.resolve(__dirname, 'insights/sample_insight_transcript.json'), 'utf8', function(err, data) {
 
     if (err) throw err;
 
