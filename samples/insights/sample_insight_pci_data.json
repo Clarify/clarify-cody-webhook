@@ -5,7 +5,12 @@
     "participants": [
         {
             "pci_data": {
-                "segments": []
+                "segments": [
+                    {
+                        "start": 45.5,
+                        "end": 60.0
+                    }
+		]
             },
             "name": "agent"
         },
@@ -19,6 +24,10 @@
                     {
                         "start": 145.54,
                         "end": 161.05
+                    },
+                    {
+                        "start": 240.0,
+                        "end": 280.0
                     }
                 ]
             },

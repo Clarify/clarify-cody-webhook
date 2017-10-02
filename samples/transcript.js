@@ -4,8 +4,9 @@ const FS = require('fs');
 const Path = require('path');
 const ClarifyCody = require('clarify-cody');
 
+var inputFile = process.argv[2] || Path.resolve(__dirname, 'insights/sample_insight_transcript.json');
 
-FS.readFile(Path.resolve(__dirname, 'insights/sample_insight_transcript.json'), 'utf8', function(err, data) {
+FS.readFile(inputFile, 'utf8', function(err, data) {
 
     if (err) throw err;
 
